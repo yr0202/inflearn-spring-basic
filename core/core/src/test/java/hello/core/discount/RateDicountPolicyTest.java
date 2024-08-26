@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
-class RateDicountPolicyTest {
+class RateDiscountPolicyTest {
 
-    RateDicountPolicy discountPolicy = new RateDicountPolicy();
+    RateDiscountPolicy discountPolicy = new RateDiscountPolicy();
 
     @Test
     @DisplayName("VIP는 10% 할인이 적용돼야 한다.")
