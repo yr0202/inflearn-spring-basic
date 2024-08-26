@@ -19,10 +19,9 @@ public class OrderServiceImpl implements OrderService {
     // 이렇게 소스코드 변경이 안될려면 아래처럼 쓰면 됨
 
     private final MemberRepository memberRepository;
-
     private final DiscountPolicy discountPolicy;
 
-    @Autowired // 수정자 주입
+    @Autowired // 생성자 주입
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
         this.memberRepository = memberRepository;
         this.discountPolicy = discountPolicy;
