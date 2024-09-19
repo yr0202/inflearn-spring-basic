@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54cfe26f-65f7-43cc-a88d-03b3ae879de0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/hello.core.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +62,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/core/src/test/java/hello/core/autowired/AllBeanTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/core/src/test/java/hello/core/scope/SingletonWithPrototypeTest1.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -71,6 +77,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build core.executor": "Run",
+    "Gradle.SingletonWithPrototypeTest1.executor": "Run",
+    "Gradle.SingletonWithPrototypeTest1.singletonClientUsePrototype.executor": "Run",
     "Gradle.Tests in 'hello.core'.executor": "Run",
     "Gradle.Tests in 'hello.core.autowired'.executor": "Run",
     "Gradle.Tests in 'hello.core.test'.executor": "Run",
@@ -80,6 +88,7 @@
     "JUnit.BeanLifecycleTest.lifecycleTest.executor": "Run",
     "JUnit.PrototypeTest.prototypeBeanFind.executor": "Run",
     "JUnit.SingletonTest.singletonBeanFind.executor": "Run",
+    "JUnit.SingletonWithPrototypeTest1.executor": "Run",
     "JUnit.SingletonWithPrototypeTest1.prototypeFind.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -103,22 +112,59 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SingletonWithPrototypeTest1">
-    <configuration name="BeanLifecycleTest.lifecycleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.lifecycle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.lifecycle" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.lifecycle.BeanLifecycleTest" />
-      <option name="METHOD_NAME" value="lifecycleTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hello.core.web" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CoreApplication">
+    <configuration name="SingletonWithPrototypeTest1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.scope.SingletonWithPrototypeTest1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SingletonWithPrototypeTest1.singletonClientUsePrototype" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;hello.core.scope.SingletonWithPrototypeTest1.singletonClientUsePrototype&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="PrototypeTest.prototypeBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello.core.test" />
@@ -131,22 +177,6 @@
       <option name="PACKAGE_NAME" value="hello.core.scope" />
       <option name="MAIN_CLASS_NAME" value="hello.core.scope.PrototypeTest" />
       <option name="METHOD_NAME" value="prototypeBeanFind" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTest.singletonBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello.core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.scope.SingletonWithPrototypeTest1" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.scope" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonTest" />
-      <option name="METHOD_NAME" value="singletonBeanFind" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,8 +213,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="core" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="hello.core.main" />
+      <module name="core.core.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.core.CoreApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -192,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SingletonWithPrototypeTest1" />
+        <item itemvalue="Gradle.SingletonWithPrototypeTest1.singletonClientUsePrototype" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1" />
         <item itemvalue="JUnit.SingletonWithPrototypeTest1.prototypeFind" />
         <item itemvalue="JUnit.PrototypeTest.prototypeBeanFind" />
-        <item itemvalue="JUnit.SingletonTest.singletonBeanFind" />
-        <item itemvalue="JUnit.BeanLifecycleTest.lifecycleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +262,8 @@
       <workItem from="1726711227782" duration="39000" />
       <workItem from="1726711323060" duration="95000" />
       <workItem from="1726711441911" duration="7371000" />
-      <workItem from="1726724842812" duration="8540000" />
+      <workItem from="1726724842812" duration="9345000" />
+      <workItem from="1726735166322" duration="2887000" />
     </task>
     <servers />
   </component>
