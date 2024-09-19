@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54cfe26f-65f7-43cc-a88d-03b3ae879de0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifecycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifecycleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +78,7 @@
     "JUnit.AllBeanTest.findAllBean.executor": "Run",
     "JUnit.BeanLifecycleTest.executor": "Run",
     "JUnit.BeanLifecycleTest.lifecycleTest.executor": "Run",
+    "JUnit.SingletonTest.singletonBeanFind.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -101,53 +101,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BeanLifecycleTest.lifecycleTest">
-    <configuration name="Tests in 'hello.core.autowired'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;hello.core.autowired.*&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="Tests in 'hello.core.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PrototypeTest.prototypeBeanFind">
     <configuration name="AllBeanTest.findAllBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello.core.test" />
       <extension name="coverage">
@@ -195,6 +149,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrototypeTest.prototypeBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.PrototypeTest" />
+      <option name="METHOD_NAME" value="prototypeBeanFind" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.singletonBeanFind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello.core.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.core.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hello.core.scope" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scope.SingletonTest" />
+      <option name="METHOD_NAME" value="singletonBeanFind" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hello.core.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="hello.core.CoreApplication" />
@@ -204,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrototypeTest.prototypeBeanFind" />
+        <item itemvalue="JUnit.SingletonTest.singletonBeanFind" />
         <item itemvalue="JUnit.BeanLifecycleTest.lifecycleTest" />
         <item itemvalue="JUnit.BeanLifecycleTest" />
         <item itemvalue="JUnit.AllBeanTest.findAllBean" />
-        <item itemvalue="Gradle.Tests in 'hello.core.test'" />
-        <item itemvalue="Gradle.Tests in 'hello.core.autowired'" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +217,7 @@
       <workItem from="1726711227782" duration="39000" />
       <workItem from="1726711323060" duration="95000" />
       <workItem from="1726711441911" duration="7371000" />
-      <workItem from="1726724842812" duration="4627000" />
+      <workItem from="1726724842812" duration="6437000" />
     </task>
     <servers />
   </component>
