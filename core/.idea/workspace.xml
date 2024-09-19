@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54cfe26f-65f7-43cc-a88d-03b3ae879de0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifecycleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/BeanLifecycleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/lifecycle/NetworkClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -230,7 +231,7 @@
       <workItem from="1726711227782" duration="39000" />
       <workItem from="1726711323060" duration="95000" />
       <workItem from="1726711441911" duration="7371000" />
-      <workItem from="1726724842812" duration="4273000" />
+      <workItem from="1726724842812" duration="4627000" />
     </task>
     <servers />
   </component>
