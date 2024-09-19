@@ -4,10 +4,12 @@ import hello.core.annotation.MainDiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 @MainDiscountPolicy
+@Primary
 public class RateDiscountPolicy implements DiscountPolicy{
 
     private int discounPercent = 10; // 10% 할인(정률)
